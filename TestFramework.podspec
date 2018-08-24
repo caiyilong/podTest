@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 
-  s.name         = "TestFramework"
+  s.name         = "CAITestFramework"
   s.version      = "1.0.6"
   s.summary      = "first."
 
