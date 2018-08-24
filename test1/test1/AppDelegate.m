@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <TestFramework/CaiLog.h>
+
 
 @interface AppDelegate ()
 
@@ -19,9 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    CaiLog *log = [CaiLog new];
-    [log logSomething];
-    NSLog(@"-----------------------");
+ 
     return YES;
 }
 

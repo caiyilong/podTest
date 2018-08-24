@@ -13,8 +13,7 @@
 		220EB9E4212EA2F70069B8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220EB9E3212EA2F70069B8CD /* Assets.xcassets */; };
 		220EB9E7212EA2F70069B8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220EB9E5212EA2F70069B8CD /* LaunchScreen.storyboard */; };
 		220EB9EA212EA2F70069B8CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EB9E9212EA2F70069B8CD /* main.m */; };
-		220EB9F2212EA3360069B8CD /* TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220EB9F0212EA3050069B8CD /* TestFramework.framework */; };
-		220EB9F3212EA3360069B8CD /* TestFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 220EB9F0212EA3050069B8CD /* TestFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		221F7846212FA7C8009F3A84 /* CaiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F7845212FA7C8009F3A84 /* CaiObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				220EB9F3212EA3360069B8CD /* TestFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -42,7 +40,8 @@
 		220EB9E6212EA2F70069B8CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		220EB9E8212EA2F70069B8CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		220EB9E9212EA2F70069B8CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		220EB9F0212EA3050069B8CD /* TestFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TestFramework.framework; sourceTree = "<group>"; };
+		221F7844212FA7C8009F3A84 /* CaiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaiObject.h; sourceTree = "<group>"; };
+		221F7845212FA7C8009F3A84 /* CaiObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaiObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +49,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220EB9F2212EA3360069B8CD /* TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +74,7 @@
 		220EB9D9212EA2F60069B8CD /* test1 */ = {
 			isa = PBXGroup;
 			children = (
-				220EB9F0212EA3050069B8CD /* TestFramework.framework */,
+				221F7843212FA7B3009F3A84 /* qwe */,
 				220EB9DA212EA2F60069B8CD /* AppDelegate.h */,
 				220EB9DB212EA2F60069B8CD /* AppDelegate.m */,
 				220EB9DD212EA2F60069B8CD /* ViewController.h */,
@@ -88,6 +86,15 @@
 				220EB9E9212EA2F70069B8CD /* main.m */,
 			);
 			path = test1;
+			sourceTree = "<group>";
+		};
+		221F7843212FA7B3009F3A84 /* qwe */ = {
+			isa = PBXGroup;
+			children = (
+				221F7844212FA7C8009F3A84 /* CaiObject.h */,
+				221F7845212FA7C8009F3A84 /* CaiObject.m */,
+			);
+			path = qwe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +170,7 @@
 			files = (
 				220EB9DF212EA2F60069B8CD /* ViewController.m in Sources */,
 				220EB9EA212EA2F70069B8CD /* main.m in Sources */,
+				221F7846212FA7C8009F3A84 /* CaiObject.m in Sources */,
 				220EB9DC212EA2F60069B8CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

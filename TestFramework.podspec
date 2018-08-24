@@ -3,7 +3,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TestFramework"
-  s.version      = "1.0.1"
+  s.version      = "1.0.5"
   s.summary      = "first."
 
 
@@ -20,11 +20,11 @@ Pod::Spec.new do |s|
   s.author             = { "caiyilong" => "yilong.cai@viewfin.com" }
 
 
-s.source       = { :git => "https://github.com/caiyilong/podTest.git", :tag =>"1.0.1" }
+s.source       = { :git => "https://github.com/caiyilong/podTest.git", :tag =>"1.0.5" }
 
 
 
-s.source_files  = "test/*"
+s.source_files  = "test1/test1/qwe"
 
 
 
