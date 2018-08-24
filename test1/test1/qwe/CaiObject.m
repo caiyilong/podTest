@@ -10,4 +10,9 @@
 
 @implementation CaiObject
 
+-(void)objectStudy{
+    CAIStudent *student = [CAIStudent new];
+    [student study];
+}
+
 @end

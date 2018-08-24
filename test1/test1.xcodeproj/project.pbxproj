@@ -14,6 +14,7 @@
 		220EB9E7212EA2F70069B8CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220EB9E5212EA2F70069B8CD /* LaunchScreen.storyboard */; };
 		220EB9EA212EA2F70069B8CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 220EB9E9212EA2F70069B8CD /* main.m */; };
 		221F7846212FA7C8009F3A84 /* CaiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 221F7845212FA7C8009F3A84 /* CaiObject.m */; };
+		221F788B212FDD04009F3A84 /* FrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221F788A212FDD04009F3A84 /* FrameWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +43,7 @@
 		220EB9E9212EA2F70069B8CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		221F7844212FA7C8009F3A84 /* CaiObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaiObject.h; sourceTree = "<group>"; };
 		221F7845212FA7C8009F3A84 /* CaiObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaiObject.m; sourceTree = "<group>"; };
+		221F788A212FDD04009F3A84 /* FrameWork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FrameWork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221F788B212FDD04009F3A84 /* FrameWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +94,7 @@
 		221F7843212FA7B3009F3A84 /* qwe */ = {
 			isa = PBXGroup;
 			children = (
+				221F788A212FDD04009F3A84 /* FrameWork.framework */,
 				221F7844212FA7C8009F3A84 /* CaiObject.h */,
 				221F7845212FA7C8009F3A84 /* CaiObject.m */,
 			);
@@ -315,6 +319,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/test1",
+					"$(PROJECT_DIR)/test1/qwe",
 				);
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +340,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/test1",
+					"$(PROJECT_DIR)/test1/qwe",
 				);
 				INFOPLIST_FILE = test1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
